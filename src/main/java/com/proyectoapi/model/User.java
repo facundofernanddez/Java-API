@@ -16,7 +16,7 @@ public class User {
   @Column(nullable = false)
   private String name;
   @Column(nullable = false)
-  private String lastName;
+  private String lastname;
   @Column(length = 10)
   private String cellphone;
   @Column(nullable = false)
