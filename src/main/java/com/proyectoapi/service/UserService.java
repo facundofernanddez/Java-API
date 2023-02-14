@@ -2,6 +2,7 @@ package com.proyectoapi.service;
 
 import com.proyectoapi.model.User;
 import com.proyectoapi.repository.UserRepository;
+import java.util.List;
 import java.util.Optional;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -37,6 +38,11 @@ public class UserService implements UserServiceInterface {
     } catch (Exception e) {
       return false;
     }
+  }
+
+  @Override
+  public List<User> getAll() {
+    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
   }
 
 }
